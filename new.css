@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-size: x-large;
+}
+
+.converter {
+    text-align: center;
+    border: 1px solid #908888;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(162, 154, 141);
+    color: #000000;
+}
+
+select, input, button {
+    margin: 10px;
+}
