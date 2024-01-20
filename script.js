@@ -19,7 +19,7 @@ function convertCurrency() {
                 document.getElementById("result").textContent = `${amount} ${fromCurrency} = ${result} ${toCurrency}`;
             } else {
                 alert("Exchange rate not available for selected currencies.");
-            }
+            }  
         })
         .catch(error => {
             console.error("Error fetching exchange rates:", error);
